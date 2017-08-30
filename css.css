@@ -1,0 +1,400 @@
+.wrapper{
+background: #fff;
+margin: 0 auto;
+width: 1080px;
+height: 100%;
+}
+.login {
+display: flex;
+line-height: 16px;
+}
+.login form{   
+margin: 0 auto;
+width: 690px;
+height: 29px;
+box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+border-radius: 3px;
+background-color: #b1bcc0;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+}
+.icons {
+border-radius: 15px;
+width: 87px;
+height: 27px;
+border: 1px solid #bdc4c7;
+background-color: #ffffff;
+text-align: center;
+box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+}
+nav{
+background-image: linear-gradient(to top, #000000 0%, #576068 100%);
+width: 100%;
+height: 34px;
+color: #ffffff;
+display: flex;
+justify-content: space-between;
+margin-bottom: 15px;
+border-radius: 4px;
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
+}
+nav ul  {
+margin: 0;
+padding: 0;
+padding-left: 160px;/*двигать текст*/
+display: flex;
+list-style: none;
+align-items: center;
+margin: 0;
+}	
+nav ul li {
+display: inline-block;
+padding: 0 10px;
+}
+nav ul li a {	
+text-decoration: none;
+padding: 1%;
+width: 465px;
+height: 12px;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+padding: 9px 12px;/*внутрение отступы*/
+color: #b1bcc0;
+}
+nav ul li:hover {
+background: #206988;
+border-radius: 10px;
+}
+nav div{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+nav div span{
+margin: 0 10px;
+}
+.nav_blue-text{
+color: #206988;
+}
+.search_car{
+width: 45%;
+}
+.search_tire{
+width: 20%;
+}
+.search{
+display: flex;
+justify-content: space-between;   
+margin-bottom: 15px;
+}
+.search> div{
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 3px 4px 5px rgba(104, 104, 104, 0.75);
+}
+.search_disks{
+width: 32%;
+}
+.parent-cols{
+display: flex;
+width: 30%;
+}
+.parent-cols label{
+display: block;
+}
+main{
+display: flex;
+}
+.content{
+width: 60%;
+display: flex;
+flex-wrap: wrap;
+width: 926px;
+height: 747px;
+border-radius: 2px;
+background-color: #ffffff;
+background-image: linear-gradient(to top, rgba(35, 75, 93, 0.49) 0%, rgba(201, 207, 209, 0.49) 100%);
+margin-right: 15px;
+margin-left: 15px;
+}
+.catalog{
+width: 20%;
+}
+.content div{
+width: 30%;
+height: 15px;
+text-align: center; 	
+}
+.vendors li, footer ul li {
+display: inline-block;
+list-style: none;
+margin-left: 10px;
+margin-right: 10px;	
+}
+.vendors, footer{
+text-align: center;
+margin-right: 50px;
+}
+footer{
+background: #103f63;
+}
+.fon{
+width: 1080px;
+height: 237px;
+}
+.vxod{
+width: 70px;
+height: 27px;
+color: #ffffff;
+font-family: "Lucida Sans Unicode";
+font-size: 11px;
+font-weight: 400;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border: none;
+}
+.register{
+width: 90px;
+height: 27px;
+color: #ffffff;
+font-family: "Lucida Sans Unicode";
+font-size: 11px;
+font-weight: 400;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border: none;
+margin-left: 5px;
+}
+.number{
+width: 264px;
+height: 17px;
+color: #5e696d;
+font-family: Arial;
+font-size: 18px;
+margin-top:7px;
+}
+.icons-number{
+width: 21px;
+height: 21px;
+margin-top:4px;
+padding: 1px ;
+padding-right: 5px;
+}
+.icons-home{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 7px;
+}
+.forgot-pasword{
+width: 95px;
+height: 13px;
+color: #bfbfbf;
+font-family: "Lucida Sans Unicode";
+font-size: 12px;
+font-weight: 400;
+line-height: 28px;
+text-decoration: underline;
+text-decoration: none;/*убераем подчеркивание*/
+padding-left: 19px;
+}
+.line{
+border: 1px solid #ffffff;
+padding-bottom: 3px;
+}
+.person{
+width: 14px;
+height: 18px;
+padding-right: 4px;
+padding-left: 3px;
+}
+.disks{
+width: 40px;
+height: 9px;
+color: #154468;
+font-family: Arial;
+font-size: 13px;
+font-weight: 900;
+line-height: 28px;
+padding-left: 15px;
+}
+.search-by-car{
+width: 155px;
+height: 9px;
+color: #154467;
+font-family: Arial;
+font-size: 16px;
+font-weight: 900;
+line-height: 28px;
+padding-left: 65px;
+}
+.tires{
+	width: 40px;
+height: 9px;
+color: #154468;
+font-family: Arial;
+font-size: 13px;
+font-weight: 900;
+line-height: 28px;
+padding-left: 75px;
+}
+.lef{
+padding-left: 5px;
+white-space:nowrap;
+}
+.righ{
+white-space:nowrap;
+padding-left: 15px;
+}
+.righh{	
+padding-left: 35px;
+}
+.first-headings{/*первые заголовки*/
+font-family: Arial;
+}
+.second-headers{/*вторые заголовки*/
+color: #77858b;
+font-size: 15px;
+font-family: Arial;
+margin-right: 40px;
+}
+.select-left{
+padding-left: 40px;/*расширение блока*/
+}
+.select-top{
+padding-left: 15px;/*расширение блока*/
+margin-bottom: 9px;
+}
+.searc{
+margin-left: 420px;
+color: #154467;
+font-family: Arial;
+font-size: 14px;
+font-style: italic;
+line-height: 28px;
+margin-top: 2px;
+text-decoration: underline;
+}
+.searcс{
+margin-left: 150px;
+color: #154467;
+font-family: Arial;
+font-size: 14px;
+font-style: italic;
+margin-top: 22px;
+text-decoration: underline;
+}
+.sear{
+margin-left: 280px;
+color: #154467;
+font-family: Arial;
+font-size: 14px;
+font-style: italic;
+line-height: 1px;
+
+text-decoration: underline;
+}
+.summer{
+white-space:nowrap;
+padding-left: 57px;
+}
+.select-leftt{
+padding-left: 10px;/*расширение блока*/
+margin-left: 12px;
+}
+.select-le{
+padding-left: 10px;/*расширение блока*/
+margin-left: -40px;
+}
+.select-l{
+padding-left: 10px;/*расширение блока*/
+margin-left: 10px;
+}
+.menu{
+width: 190px;
+height: 24px;
+border-radius: 17px;
+border: 1px solid #9c9c9d;
+text-align: center;
+color: #114165;
+margin-top: 6px;
+}
+.menu1{
+width: 130px;
+height: 24px;
+border-radius: 17px;
+border: 1px solid #9c9c9d;
+text-align: center;
+color: #114165;
+}
+.img{
+padding-right: 5px;
+margin: 0 0 0.3em 0em;
+}
+.naim{
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 13px;
+font-weight: 400;
+margin-left: -14px;
+}
+.naim:hover{
+color: #0c3256;
+font-family: Arial;
+font-size: 14px;
+font-weight: 700;
+font-style: italic;
+text-decoration: underline;
+}
+.brand-of-wheels{
+color: #206988;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: -1px;
+}
+.wheels{
+color: #1f2528;
+font-size: 13px;
+}
+.price{
+width: 190px;
+height: 12px;
+color: #114165;
+font-family: Arial;
+font-weight: bold;
+font-style: italic;
+line-height: 3px;
+}
+a{ 
+text-decoration: none; /* Отменяем подчеркивание у ссылки */
+color: #0c3256;
+} 
+li {
+list-style-type: none; /* Убираем маркеры */
+}
+.compani{
+font-family: Arial;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+color: #bec6c9;
+}
+.lin{
+border: 1px solid #bec6c9;
+font-size: 11px;
+line-height: 30px;
+margin-left: 1px;
+margin-right: 1px;
+}
+.linn{ 
+text-decoration: none; /* Отменяем подчеркивание у ссылки */
+color: #bec6c9;
+} 
+.linn:hover{
+color: #52abcb;
+}
+.global{
+color: #7f4740;
+font-family: Arial;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+}   
